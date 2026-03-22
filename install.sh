@@ -7,7 +7,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 REPO='https://github.com/YouStones'
-GRUB_THEME='digital_grub'
+GRUB_THEME='digital-circus-grub-theme'
 INSTALLER_LANG='English'
 
 # Check dependencies
