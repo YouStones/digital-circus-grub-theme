@@ -6,7 +6,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-GRUB_THEME='digital_grub'
+GRUB_THEME='digital-circus-grub-theme'
 
 # Change to temporary directory
 cd $(mktemp -d)
