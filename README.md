@@ -1,8 +1,8 @@
-## [name] theme
+## digital circus theme
 
 Supported languages: Chinese (simplified), Chinese (traditional), English, French, German, Hungarian, Italian, Korean, Latvian, Norwegian, Polish, Portuguese, Russian, Rusyn, Spanish, Turkish, Ukrainian
 
-![name](./[name].gif)
+!digital circus(./digital circus.gif)
 
 
 ---
@@ -15,7 +15,7 @@ Supported languages: Chinese (simplified), Chinese (traditional), English, Frenc
   - Download install script:
 
     ```sh
-    wget -P /tmp [REPO_URL]/raw/main/install.sh
+    wget -P /tmp https://github.com/YouStones/digital-circus-grub-theme/raw/main/install.sh
     ```
 
   - Review it at `/tmp/install.sh`
@@ -29,7 +29,7 @@ Supported languages: Chinese (simplified), Chinese (traditional), English, Frenc
 - **Easier, less secure way** — just download and run install script:
 
   ```sh
-  wget -O - [REPO_URL]/raw/main/install.sh | bash
+  wget -O - https://github.com/YouStones/digital-circus-grub-theme/raw/main/install.sh | bash
   ```
 
 <br>
@@ -43,7 +43,7 @@ bash /tmp/install.sh --lang German
 or
 
 ```sh
-wget -O- [REPO_URL]/raw/main/install.sh | bash -s -- --lang Korean
+wget -O- https://github.com/YouStones/digital-circus-grub-theme/raw/main/install.sh | bash -s -- --lang Korean
 ```
 
 <br>
@@ -59,7 +59,7 @@ Full list of languages see in `INSTALLER_LANGS` variable in [install.sh](install
   - Download uninstall script:
 
     ```sh
-    wget -P /tmp [REPO_URL]/raw/main/uninstall.sh
+    wget -P /tmp https://github.com/YouStones/digital-circus-grub-theme/raw/main/uninstall.sh
     ```
 
   - Review it at `/tmp/uninstall.sh`
@@ -73,7 +73,7 @@ Full list of languages see in `INSTALLER_LANGS` variable in [install.sh](install
 - **Easier, less secure way** — just download and run uninstall script:
 
   ```sh
-  wget -O - [REPO_URL]/raw/main/uninstall.sh | bash
+  wget -O - https://github.com/YouStones/digital-circus-grub-theme/raw/main/uninstall.sh | bash
   ```
 
 ---
